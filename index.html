@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taylor Swift Fan Book</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: url('https://assets.teenvogue.com/photos/641b2a23912ddccbabf80f80/16:9/w_2560%2Cc_limit/GettyImages-1474459622.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+    }
+    .section-title {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Taylor Swift Fan Book</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#bio">Bio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#discography">Discography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#news">Latest News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Fan Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to the Taylor Swift Fan Book</h1>
+  </div>
+
+  <!-- Bio Section -->
+  <section id="bio" class="container">
+    <h2 class="section-title">Bio</h2>
+    <p>Taylor Swift is an American singer-songwriter known for her narrative songwriting and hit songs like "Love Story," "You Belong with Me," and "Shake It Off." Over her career, she has won numerous awards and continues to be a major influence in the music industry.</p>
+  </section>
+
+  <!-- Discography Section -->
+  <section id="discography" class="container">
+    <h2 class="section-title">Discography</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Fearless (2008)</h3>
+        <p>Includes hits like "Love Story" and "You Belong with Me."</p>
+      </div>
+      <div class="col-md-4">
+        <h3>1989 (2014)</h3>
+        <p>Includes hits like "Shake It Off" and "Blank Space."</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Folklore (2020)</h3>
+        <p>Includes hits like "Cardigan" and "Exile."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest News Section -->
+  <section id="news" class="container">
+    <h2 class="section-title">Latest News</h2>
+    <ul>
+      <li>Taylor Swift announces her next tour dates.</li>
+      <li>New album "Evermore" is out now!</li>
+      <li>Taylor wins Artist of the Decade at the American Music Awards.</li>
+    </ul>
+  </section>
+
+  <!-- Fan Gallery Section -->
+  <section id="gallery" class="container">
+    <h2 class="section-title">Fan Gallery</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://assets.teenvogue.com/photos/660d3041dfe832426eb9b0ff/16:9/w_2560%2Cc_limit/GettyImages-2053044936%25202.jpg" alt="Fan Image 1" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="https://images.seattletimes.com/wp-content/uploads/2023/07/07222023_swift_213100.jpg?d=2040x1479" alt="Fan Image 2" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="https://assets.teenvogue.com/photos/65d48e154741e2864433c058/16:9/w_2560%2Cc_limit/1788570439" alt="Fan Image 3" class="img-fluid">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2 class="section-title">Contact</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
